@@ -109,3 +109,13 @@ html {
     font-weight: 400;
     padding-bottom: 1em;
 }
+
+.label {
+    padding-top: 1em;
+}
+
+.input {
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
