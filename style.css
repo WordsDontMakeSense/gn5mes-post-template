@@ -1,0 +1,111 @@
+html {
+    color-scheme: dark;
+    font-size: 15px;
+    background-color: rgb(0, 0, 0);
+    scrollbar-color: rgb(62, 65, 68) rgb(22, 24, 28);
+}
+
+.post-container {
+    width: 566px;
+    padding: 1em;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+}
+
+.author-info {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 1em;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.username {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    color-scheme: dark;
+    scrollbar-color: rgb(62, 65, 68) rgb(22, 24, 28);
+    pointer-events: auto;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.00);
+    border: 0 solid black;
+    box-sizing: border-box;
+    color: inherit;
+    display: inline;
+    font: inherit;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    text-decoration: none;
+    white-space: inherit;
+    text-align: inherit;
+    min-width: 0px;
+    font-family: inherit;
+    word-wrap: break-word;
+    font-family: 'TwitterChirp';
+    font-weight: 700;
+}
+
+.handle {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    color-scheme: dark;
+    scrollbar-color: rgb(62, 65, 68) rgb(22, 24, 28);
+    pointer-events: auto;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.00);
+    border: 0 solid black;
+    box-sizing: border-box;
+    color: rgb(113, 118, 123);
+    display: inline;
+    font: inherit;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    text-decoration: none;
+    white-space: inherit;
+    text-align: inherit;
+    min-width: 0px;
+    font-family: inherit;
+    word-wrap: break-word;
+    font-family: 'TwitterChirp';
+}
+
+.pfp {
+    width: 40px;
+    height: 40px;
+}
+
+.pfp img {
+    border-radius: 50%;
+    box-shadow: rgba(255, 255, 255, 0.03) 0px 0px 2px inset;
+}
+
+.post-container {
+    max-width: 50%;
+}
+
+.media img {
+    border-radius: 1em;
+    width: 564px;
+    height: auto;
+}
+
+.text {
+    border: none;
+    background-color: #000;
+    font-size: 17px;
+    width: 100%;
+    font-family: 'TwitterChirp';
+    font-weight: 400;
+    padding-bottom: 1em;
+}
